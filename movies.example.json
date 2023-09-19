@@ -1,0 +1,9 @@
+[
+  {
+    "title": "movie title 1"
+  },
+  {
+    "title": "movie title 2",
+    "watched": true
+  }
+]
