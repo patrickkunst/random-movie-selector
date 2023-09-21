@@ -12,7 +12,7 @@ const initialize = (movies) => {
     addMovies(movies)
       .then(() => {
         console.info("Successfully added movies to Mongo");
-        process.exit(1);
+        process.exit(0);
       })
       .catch((err) => {
         console.info("Error creating document", err.message);
